@@ -4,9 +4,7 @@
 
 WaveForge generates three waveforms using nothing but an LM324 quad op-amp, two 2N2222 transistors and a handful of passives. An ESP32 then lets you *look at* those signals three different ways: on a tiny SPI OLED oscilloscope, in the Arduino Serial Plotter, and in a Python FFT dashboard that measures the harmonic distortion (THD) of the sine wave so the analog circuit can be tuned with real numbers.
 
-https://github.com/user-attachments/assets/REPLACE-WITH-DEMO-VIDEO-URL
-
-> If the video above does not play, open [`Images/Demo.mp4`](Images/Demo.mp4) directly.
+> Open [`Images/Demo.mp4`](Images/Demo.mp4) to see the demonstration.
 
 ![Breadboard implementation](Images/Breadboard_Implementation.jpeg)
 
